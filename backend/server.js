@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: "https://notes-backend-mjcb.onrender.com"
+    origin: "https://notes-app-olive-ten-77.vercel.app"
 }));
 
 
