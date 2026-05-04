@@ -7,12 +7,14 @@ dotenv.config();
 
 const app = express();
 
-app.use(express.json());
-
-
 app.use(cors({
     origin: "https://notes-app-olive-ten-77.vercel.app"
 }));
+
+
+app.use(express.json());
+
+
 
 
 app.use("/api/notes",Notes)
