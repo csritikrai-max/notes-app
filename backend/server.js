@@ -11,7 +11,7 @@ app.use(express.json());
 
 
 app.use(cors({
-    origin: "https://notes-app-olive-ten-77.vercel.app/"
+    origin: "https://notes-app-olive-ten-77.vercel.app"
 }));
 
 
