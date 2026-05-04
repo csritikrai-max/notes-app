@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 // Replace with your actual API base URL
-const API_BASE = "http://localhost:3001/api/notes";
+const API_BASE = "https://notes-backend-mjcb.onrender.com/";
 
 async function fetchNotes() {
   const res = await fetch(API_BASE);
